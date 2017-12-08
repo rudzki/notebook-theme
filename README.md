@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/rudzki/notebook/master/screenshot.png "Screenshot")
+
 Notebook is a simple WordPress theme for personal bloggers
 * By Chris Rudzki (chris@rudzki.org)
 
