@@ -1016,7 +1016,7 @@ input {
 }
 
 
-input[type="search"] {
+.search-form input[type="search"] {
   -webkit-appearance:none;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -1024,17 +1024,8 @@ input[type="search"] {
   width: 70%;
 }
 
-input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	background: #e6e6e6;
-	border-radius: 0;
-	color: rgba(0, 0, 0, 0.8);
-	font-size: 1rem;
-	line-height: 1;
-	padding: .7em 0 .6em;
-	display: inline;
-	width: 20%;
+.search-form input[type="submit"] {
+	width: 25%;
 }
 
 .search-field {
