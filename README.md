@@ -3,6 +3,15 @@
 Notebook is a simple WordPress theme for personal bloggers
 * By Chris Rudzki (chris@rudzki.org)
 
+Features
+* Custom header image
+* Site logo
+* Featured images
+* Mobile-friendly
+* Custom archive page (Soon)
+* Social media menu (Soon)
+
+
 Credits
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
