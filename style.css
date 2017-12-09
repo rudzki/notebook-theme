@@ -559,7 +559,7 @@ a:hover, a:active {
 }
 
 .main-navigation ul {
-	display: none;
+	display: block;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
@@ -592,20 +592,11 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
+.menu-toggle {
+	display: none;
 }
 
-@media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: block;
-	}
-}
+/* Small menu. */
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -963,8 +954,12 @@ object {
 
 /* sidebar-content layout */
 
+body {
+	margin: 1.5em;
+}
+
 .site {
-	margin: 3em auto;
+	margin: 0 auto;
 	max-width: 960px;
 }
 
@@ -1131,4 +1126,20 @@ input[type="submit"]:disabled:active {
 input[type="submit"]:focus {
 	border-color: #00aadc;
 	box-shadow: 0 0 0 2px #78dcfa;
+}
+
+/* mobile */
+
+@media screen and (max-width: 740px) {
+	.site {
+		max-width: inherit;
+	}
+
+	.content-area,
+	.site-main,
+	.site-header {
+		margin: 0;
+		float: none;
+		width: auto;
+	}
 }
