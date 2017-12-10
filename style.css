@@ -813,32 +813,16 @@ li {
 }
 
 .comment-meta {
-		font-size: 14px;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-		vertical-align: baseline;
-		background: white;
 		border-color: #404040;
 		border-style: solid;
 		border-width: 1px 1px 2px;
 		color: #404040;
-		cursor: pointer;
-		display: inline-block;
-		outline: 0;
 		overflow: hidden;
 		font-weight: 500;
 		text-overflow: ellipsis;
 		text-decoration: none;
-		vertical-align: top;
-		box-sizing: border-box;
-		font-size: 14px;
 		line-height: 21px;
-		border-radius: 0px;
-		padding: 7px 14px 9px;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
+		padding: 9px 14px 9px;
 	    width: 100%;
 }
 
