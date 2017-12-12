@@ -779,12 +779,12 @@ a:hover, a:active {
 
 .tag-cloud-link {
 	font-size: inherit !important;
-	text-transform: capitalize;
 }
 
 .tag-cloud-link::before {
 	content: '#';
-	font-size:85%;
+	margin-right: 1px;
+	font-size: 85%;
 }
 
 /*--------------------------------------------------------------
