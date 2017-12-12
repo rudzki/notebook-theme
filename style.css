@@ -768,7 +768,7 @@ a:hover, a:active {
 	font-size: 1rem;
 }
 
-.widget_text .textwidget {
+.widget p {
 	font-size: 85%;
 }
 
