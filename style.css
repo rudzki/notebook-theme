@@ -1152,3 +1152,9 @@ input[type="submit"]:focus {
 		width: auto;
 	}
 }
+
+/* syntax highlighting style */
+
+.syntaxhighlighter .line {
+line-height: 1.5 !important;
+}
