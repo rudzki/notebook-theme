@@ -1153,8 +1153,12 @@ input[type="submit"]:focus {
 	}
 }
 
-/* syntax highlighting style */
+/* SyntaxHighlighter Evolved - styling */
+
+.syntaxhighlighter {
+	padding-bottom: 0.5em !important;
+}
 
 .syntaxhighlighter .line {
-line-height: 1.5 !important;
+	line-height: 1.5 !important;
 }
