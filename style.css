@@ -768,10 +768,6 @@ a:hover, a:active {
 	font-size: 1rem;
 }
 
-.widget p {
-	font-size: 85%;
-}
-
 .widget_calendar caption {
 	margin-bottom: 0.75em;
 }
