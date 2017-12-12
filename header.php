@@ -35,7 +35,7 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
-
+		<?php if ( function_exists( 'jetpack_social_menu' ) ) jetpack_social_menu(); ?>
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'notebook' ); ?></button>
 			<?php

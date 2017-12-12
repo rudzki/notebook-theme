@@ -8,8 +8,8 @@ Features
 * Site logo
 * Featured images
 * Mobile-friendly
+* Social menu support for Jetpack
 * Custom archive page (Soon)
-* Social media menu (Soon)
 
 Credits
 * Based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)

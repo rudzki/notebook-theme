@@ -596,6 +596,12 @@ a:hover, a:active {
 	display: none;
 }
 
+/* Social media menu */
+
+.jetpack-social-navigation li {
+	font-size: 133%;
+}
+
 /* Small menu. */
 
 .site-main .comment-navigation, .site-main
