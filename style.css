@@ -777,6 +777,16 @@ a:hover, a:active {
 	text-align: center;
 }
 
+.tag-cloud-link {
+	font-size: inherit !important;
+	text-transform: capitalize;
+}
+
+.tag-cloud-link::before {
+	content: '#';
+	font-size:85%;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
