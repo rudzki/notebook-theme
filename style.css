@@ -604,11 +604,9 @@ a:hover, a:active {
 	overflow: hidden;
 }
 
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
-	margin: 3em 0;
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 1.5em 0;
 }
 
 .comment-navigation .nav-previous,
