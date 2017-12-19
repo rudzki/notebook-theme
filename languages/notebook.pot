@@ -92,7 +92,7 @@ msgstr ""
 
 #: inc/template-tags.php:72
 #. translators: %s: post title
-msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgid "Reply<span class=\"screen-reader-text\"> to %s</span>"
 msgstr ""
 
 #: inc/template-tags.php:89 template-parts/content-page.php:35

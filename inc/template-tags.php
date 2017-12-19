@@ -85,7 +85,7 @@ if ( ! function_exists( 'notebook_entry_footer' ) ) :
 				sprintf(
 					wp_kses(
 						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'notebook' ),
+						__( 'Reply<span class="screen-reader-text"> to %s</span>', 'notebook' ),
 						array(
 							'span' => array(
 								'class' => array(),

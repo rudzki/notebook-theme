@@ -808,7 +808,7 @@ a:hover, a:active {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 0.5em 0 0;
 }
 
 li {
@@ -1011,9 +1011,13 @@ body {
 .tags-links,
 .edit-link,
 .cat-links,
-.posted-on,
 .byline {
 	display: block;
+}
+
+.comments-link {
+	float: right;
+	text-align: right;
 }
 
 input {

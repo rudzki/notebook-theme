@@ -21,7 +21,6 @@
 		if ( 'post' === get_post_type() ) : ?>
 		<?php
 		endif; ?>
-		<?php notebook_posted_on(); ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -48,6 +47,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		<?php notebook_posted_on(); ?>
 		<?php notebook_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
