@@ -52,7 +52,7 @@ if ( ! function_exists( 'notebook_posted_on' ) ) :
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
-		echo '<span class="posted-on">' . $posted_on . '</span><span class="' . notebook_single_author() . 'byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+		echo '<div class="entry-footer-left"><span class="posted-on">' . $posted_on . '</span><span class="' . notebook_single_author() . 'byline"> ' . $byline . '</span></div>'; // WPCS: XSS OK.
 
 	}
 endif;
@@ -62,6 +62,7 @@ if ( ! function_exists( 'notebook_entry_footer' ) ) :
 	 * Prints HTML with meta information for the categories, tags and comments.
 	 */
 	function notebook_entry_footer() {
+		echo '<div class="entry-footer-right">';
 		// Hide category and tag text for pages.
 		if ( 'post' === get_post_type() ) {
 			/* translators: used between list items, there is a space after the comma */
@@ -114,5 +115,6 @@ if ( ! function_exists( 'notebook_entry_footer' ) ) :
 			'<span class="edit-link">',
 			'</span>'
 		);
+		echo '</div>';
 	}
 endif;

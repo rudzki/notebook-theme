@@ -278,13 +278,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0.83em 0 0 0;
 }
 
-.archive .tags-links,
-.archive .cat-links,
-.blog .tags-links,
-.blog .cat-links {
-	display: none;
-}
-
 p {
 	margin-bottom: 1.5em;
 }
@@ -815,6 +808,20 @@ a:hover, a:active {
 
 .entry-footer {
 	font-size: 85%;
+	overflow: hidden;
+}
+
+.entry-footer-left {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.entry-footer-right {
+    display: block;
+    width: 50%;
+    float: right;
+    text-align: right;
 }
 
 li {
@@ -1010,20 +1017,11 @@ body {
 
 /* more stuff added */
 
-.single-author.byline {
-	display: none;
-}
-
 .tags-links,
 .edit-link,
 .cat-links,
 .byline {
 	display: block;
-}
-
-.comments-link {
-	float: right;
-	text-align: right;
 }
 
 input {
@@ -1034,7 +1032,6 @@ input {
 	background-color: #eee;
 	padding: 1.6em;
 }
-
 
 .search-form input[type="search"] {
   -webkit-appearance:none;
@@ -1059,26 +1056,24 @@ label {
 
 .comment-respond label {
 	margin-bottom: 3px;
-float: none;
-font-weight: bold;
-display: block;
+	float: none;
+	font-weight: bold;
+	display: block;
 }
 
 tr {
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 th, td {
-padding: 0.5em 1em;
+	padding: 0.5em 1em;
 }
 
 tr.odd {
-	border-bottom: 1px solid #ccc;
 	background: #f8f8f8;
 }
 
 tr.even {
-	border-bottom: 1px solid #ccc;
 	background: #fff;
 }
 
