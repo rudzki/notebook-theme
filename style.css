@@ -608,6 +608,12 @@ a:hover, a:active {
 	overflow: hidden;
 }
 
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+	padding-top: 3em;
+}
+
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
