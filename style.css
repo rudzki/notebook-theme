@@ -96,6 +96,10 @@ a:hover {
 	outline: 0;
 }
 
+a:hover {
+    color: #74c7a2;
+}
+
 b,
 strong {
 	font-weight: bold;
