@@ -793,9 +793,9 @@ a:hover, a:active {
 }
 
 .hentry {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 3px double #eee;
 	margin: 0;
-	padding: 0 0 1.5em 0;
+	padding: 3em 0;
 }
 
 .updated:not(.published) {
@@ -1000,6 +1000,10 @@ body {
 }
 .site-main {
 	margin: 0 0 0 30%;
+}
+
+.site-header {
+	padding-top: 3em;
 }
 
 .site-header,
