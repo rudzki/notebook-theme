@@ -795,7 +795,7 @@ a:hover, a:active {
 .hentry {
 	border-bottom: 3px double #eee;
 	margin: 0;
-	padding: 3em 0;
+	padding: 1.5em 0 3em 0;
 }
 
 .updated:not(.published) {
