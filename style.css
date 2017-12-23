@@ -798,8 +798,7 @@ a:hover, a:active {
 }
 
 .page-content,
-.entry-content,
-.entry-summary {
+.entry-content {
 	margin: 0.5em 0 0;
 }
 
@@ -836,11 +835,11 @@ li {
 --------------------------------------------------------------*/
 
 
-body:not(.single) .format-status .entry-summary {
+body:not(.single) .format-status {
 	font-size: 85% !important;
 }
 
-body:not(.single) .format-status .entry-summary p {
+body:not(.single) .format-status p {
 	display: inline;
 	margin: 0;
 }

@@ -23,11 +23,6 @@
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php if (!is_singular()) : ?>
-		<div class="entry-summary">
-			<?php the_excerpt(); ?>
-		</div><!-- .entry-summary -->
-	<?php else: ?>
 		<div class="entry-content">
 			<?php the_post_thumbnail(); ?>
 			<?php
@@ -50,7 +45,6 @@
 				) );
 				?>
 		</div><!-- .entry-content -->
-<?php endif; ?>
 	<footer class="entry-footer">
 		<?php notebook_posted_on(); ?>
 		<?php notebook_entry_footer(); ?>
