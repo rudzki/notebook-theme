@@ -629,16 +629,17 @@ a:hover, a:active {
 	width: 50%;
 }
 
-.comment-navigation .nav-previous::before,
-.posts-navigation .nav-previous::before,
-.post-navigation .nav-previous::before {
+.comment-navigation .nav-previous a::before,
+.posts-navigation .nav-previous a::before,
+.post-navigation .nav-previous a::before {
 	content: "\2190";
 	padding-right: 4px;
 }
 
-.comment-navigation .nav-next::after,
-.posts-navigation .nav-next::after,
-.post-navigation .nav-next::after {
+.more-tag a::after,
+.comment-navigation .nav-next a::after,
+.posts-navigation .nav-next a::after,
+.post-navigation .nav-next a::after {
 	content: "\2192";
 	padding-left: 4px;
 }

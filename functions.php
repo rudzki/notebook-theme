@@ -166,3 +166,13 @@ function notebook_search_button($text) {
      $text = str_replace('value="Search"', 'value="Go"', $text); //set as value the text you want
      return $text;
 }
+
+/**
+ * Add read more link after post excerpts
+ */
+
+function notebook_excerpt_more($more) {
+       global $post;
+			 return '... <a class="more-tag" href="'. get_permalink($post->ID) . '"> Read more</a>';
+}
+add_filter('excerpt_more', 'notebook_excerpt_more');

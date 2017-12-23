@@ -23,9 +23,14 @@
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
-		<?php the_post_thumbnail(); ?>
-		<?php
+	<?php if (!is_singular()) : ?>
+		<div class="entry-summary">
+			<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
+	<?php else: ?>
+		<div class="entry-content">
+			<?php the_post_thumbnail(); ?>
+			<?php
 			the_content( sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
@@ -37,15 +42,15 @@
 					)
 				),
 				get_the_title()
-			) );
+				) );
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'notebook' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
-
+				wp_link_pages( array(
+					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'notebook' ),
+					'after'  => '</div>',
+				) );
+				?>
+		</div><!-- .entry-content -->
+<?php endif; ?>
 	<footer class="entry-footer">
 		<?php notebook_posted_on(); ?>
 		<?php notebook_entry_footer(); ?>
