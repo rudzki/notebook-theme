@@ -36,6 +36,12 @@ if ( ! function_exists( 'notebook_setup' ) ) :
 		add_theme_support( 'title-tag' );
 
 		/*
+		 * Add support for different post formats
+		 */
+
+		add_theme_support( 'post-formats', array( 'gallery', 'quote', 'video', 'audio', 'aside', 'status', 'image', 'link' ) );
+
+		/*
 		 * Enable support for Post Thumbnails on posts and pages.
 		 *
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
