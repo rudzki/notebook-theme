@@ -35,6 +35,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Widgets
 # Content
 	## Posts and pages
+	## Post formats
 	## Comments
 # Infinite scroll
 # Media
@@ -608,12 +609,6 @@ a:hover, a:active {
 	overflow: hidden;
 }
 
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
-.post-navigation {
-	padding-top: 3em;
-}
-
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -795,8 +790,7 @@ a:hover, a:active {
 
 .hentry {
 	border-bottom: 3px double #eee;
-	margin: 0;
-	padding: 1em 0 2em 0;
+	margin: 0 0 1.5em 0;
 }
 
 .updated:not(.published) {
@@ -811,6 +805,7 @@ a:hover, a:active {
 
 .entry-footer {
 	font-size: 85%;
+	margin-bottom: 1.5em;
 	overflow: hidden;
 }
 
@@ -834,6 +829,29 @@ li {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Post formats
+--------------------------------------------------------------*/
+
+:not(.single) .format-status .entry-header,
+:not(.single) .format-aside .entry-header {
+	display: none !important;
+}
+
+:not(.single) .format-status .entry-summary {
+	font-size: 85% !important;
+}
+
+:not(.single) .format-status .entry-footer-left .byline,
+:not(.single) .format-status .entry-footer-left .posted-on {
+	display: inline !important;
+}
+
+:not(.single) .format-status .entry-footer-right .cat-links,
+:not(.single) .format-status .entry-footer-right .tags-links {
+	display: none !important;
 }
 
 /*--------------------------------------------------------------
@@ -986,7 +1004,7 @@ object {
 /* sidebar-content layout */
 
 body {
-	margin: 1.5em;
+	margin: 3em 1.5em;
 }
 
 .site {
@@ -1001,10 +1019,6 @@ body {
 }
 .site-main {
 	margin: 0 0 0 30%;
-}
-
-.site-header {
-	padding-top: 1em;
 }
 
 .site-header,
