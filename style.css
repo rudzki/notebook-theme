@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-title,
 .page-title,
 .entry-title {
-	font-size: 1.5em;
+	font-size: 1.33em;
 	margin: 0.83em 0 0 0;
 }
 
@@ -790,7 +790,7 @@ a:hover, a:active {
 
 .hentry {
 	border-bottom: 3px double #eee;
-	margin: 0 0 1.5em 0;
+	margin: 0 0 1.5rem 0;
 }
 
 .updated:not(.published) {
@@ -805,7 +805,7 @@ a:hover, a:active {
 
 .entry-footer {
 	font-size: 85%;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.5rem;
 	overflow: hidden;
 }
 
@@ -835,22 +835,29 @@ li {
 ## Post formats
 --------------------------------------------------------------*/
 
-:not(.single) .format-status .entry-header,
-:not(.single) .format-aside .entry-header {
-	display: none !important;
-}
 
-:not(.single) .format-status .entry-summary {
+body:not(.single) .format-status .entry-summary {
 	font-size: 85% !important;
 }
 
-:not(.single) .format-status .entry-footer-left .byline,
-:not(.single) .format-status .entry-footer-left .posted-on {
+body:not(.single) .format-status .entry-summary p {
+	display: inline;
+	margin: 0;
+}
+
+body:not(.single) .format-status .entry-footer-left .byline,
+body:not(.single) .format-status .entry-footer-left .posted-on {
 	display: inline !important;
 }
 
-:not(.single) .format-status .entry-footer-right .cat-links,
-:not(.single) .format-status .entry-footer-right .tags-links {
+body:not(.single) .format-status .entry-header,
+body:not(.single) .format-status .entry-footer-right .cat-links,
+body:not(.single) .format-status .entry-footer-right .tags-links,
+body:not(.single) .format-status .comments-link,
+body:not(.single) .format-aside .entry-header,
+body:not(.single) .format-aside .entry-footer-right .cat-links,
+body:not(.single) .format-aside .entry-footer-right .tags-links,
+body:not(.single) .format-aside .comments-link {
 	display: none !important;
 }
 
