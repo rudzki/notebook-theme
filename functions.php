@@ -173,6 +173,6 @@ function notebook_search_button($text) {
 
 function notebook_excerpt_more($more) {
        global $post;
-			 return '... <a class="more-tag" href="'. get_permalink($post->ID) . '"> Read more</a>';
+			 return '... <a class="more-tag" href="'. get_permalink($post->ID) . '"><span class="screen-reader-text">Read more </span>&rarr;</a>';
 }
 add_filter('excerpt_more', 'notebook_excerpt_more');

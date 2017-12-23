@@ -636,7 +636,6 @@ a:hover, a:active {
 	padding-right: 4px;
 }
 
-.more-tag a::after,
 .comment-navigation .nav-next a::after,
 .posts-navigation .nav-next a::after,
 .post-navigation .nav-next a::after {
