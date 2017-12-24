@@ -280,11 +280,11 @@ h1, h2, h3, h4, h5, h6 {
 .page-title,
 .entry-title {
 	font-size: 1.33em;
-	margin: 0.83em 0 0 0;
+	margin: 0.83em 0;
 }
 
 p {
-	margin-bottom: 1.5em;
+	margin: 0 0 1.5em 0;
 }
 
 .site-description { margin-top: 0; }
@@ -295,7 +295,7 @@ dfn, cite, em, i {
 }
 
 blockquote {
-	padding: 0 1.5em;
+	padding-left: 1.5em;
 	margin: 0;
 	border-left: 1px solid #CCC;
 	color: #777;
@@ -797,11 +797,6 @@ a:hover, a:active {
 	display: none;
 }
 
-.page-content,
-.entry-content {
-	margin: 0.5em 0 0;
-}
-
 .entry-footer {
 	font-size: 85%;
 	margin-bottom: 1.5rem;
@@ -849,6 +844,11 @@ body:not(.single) .format-status .entry-footer-left .posted-on {
 	display: inline !important;
 }
 
+
+body:not(.single) .format-quote .entry-header,
+body:not(.single) .format-quote .entry-footer-right .cat-links,
+body:not(.single) .format-quote .entry-footer-right .tags-links,
+body:not(.single) .format-quote .comments-link,
 body:not(.single) .format-status .entry-header,
 body:not(.single) .format-status .entry-footer-right .cat-links,
 body:not(.single) .format-status .entry-footer-right .tags-links,
@@ -933,6 +933,11 @@ object {
 	display: inline-block;
 }
 
+.size-full {
+	width: 100%;
+	height: auto;
+}
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
@@ -949,10 +954,10 @@ object {
 
 .wp-caption .wp-caption-text {
 	margin: 0.8075em 0;
-	font-size: 85%;
 }
 
 .wp-caption-text {
+	font-size: 85%;
 	text-align: center;
 }
 
