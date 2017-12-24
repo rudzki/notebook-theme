@@ -542,6 +542,11 @@ a:hover, a:active {
 	text-decoration: underline;
 }
 
+.footnote a,
+.footnotereverse a {
+	text-decoration: none;
+}
+
 .site-footer a {
 	color: #777;
 	text-decoration: underline;
