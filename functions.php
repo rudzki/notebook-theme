@@ -80,8 +80,8 @@ if ( ! function_exists( 'notebook_setup' ) ) :
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
+			'height'      => 200,
+			'width'       => 200,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
@@ -97,7 +97,7 @@ add_action( 'after_setup_theme', 'notebook_setup' );
  * @global int $content_width
  */
 function notebook_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'notebook_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'notebook_content_width', 672 );
 }
 add_action( 'after_setup_theme', 'notebook_content_width', 0 );
 

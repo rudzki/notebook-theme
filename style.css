@@ -793,7 +793,7 @@ a:hover, a:active {
 	display: block;
 }
 
-.hentry {
+article {
 	border-bottom: 3px double #eee;
 	margin: 0 0 1.5rem 0;
 }
@@ -864,6 +864,9 @@ body:not(.single) .format-aside .entry-footer-right .tags-links,
 body:not(.single) .format-aside .comments-link {
 	display: none !important;
 }
+
+.sloc-display { text-align: center; }
+.p-location a { text-decoration: none; font-size: 85%; color: inherit; }
 
 /*--------------------------------------------------------------
 ## Comments
