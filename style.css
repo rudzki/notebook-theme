@@ -802,6 +802,8 @@ article {
 	display: none;
 }
 
+.entry-content { margin-top: 1.5em; }
+
 .entry-footer {
 	font-size: 85%;
 	margin-bottom: 1.5rem;
