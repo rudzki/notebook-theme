@@ -948,6 +948,12 @@ object {
 	height: auto;
 }
 
+.comment-content img,
+.page-content img,
+.entry-content img {
+	margin-bottom: 1.5em;
+}
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
