@@ -298,8 +298,8 @@ optgroup,
 textarea {
 	color: black;
 	font-family: 'IBM Plex Sans', -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 18px;
+	font-size: 1.125rem;
 	line-height: 1.5;
 }
 
@@ -446,11 +446,6 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	padding: 0;
-	font-size: 14px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 	vertical-align: baseline;
 	background: white;
 	border-color: #ccc;
@@ -466,8 +461,8 @@ input[type="submit"] {
 	text-decoration: none;
 	vertical-align: top;
 	box-sizing: border-box;
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 16px;
+	line-height: 1.5;
 	border-radius: 0px;
 	padding: 7px 14px 9px;
 	-webkit-appearance: none;
@@ -792,7 +787,7 @@ a:hover, a:active {
 }
 
 .widget-title {
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 .widget_calendar caption {
@@ -979,9 +974,7 @@ object {
 	height: auto;
 }
 
-.comment-content img,
-.page-content img,
-.entry-content img {
+.attachment-post-thumbnail {
 	margin-bottom: 1.5em;
 }
 
@@ -1067,7 +1060,7 @@ body {
 
 .site {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 1100px;
 }
 
 .content-area {
@@ -1166,12 +1159,6 @@ tr.even {
 ** ======================================================================== */
 
 input[type="submit"] {
-	padding: 0;
-	font-size: 14px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	vertical-align: baseline;
 	background: white;
 	border-color: #ccc;
 	border-style: solid;
@@ -1179,7 +1166,6 @@ input[type="submit"] {
 	color: #404040;
 	cursor: pointer;
 	display: inline-block;
-	/* margin: 24px 0 0; */
 	outline: 0;
 	overflow: hidden;
 	font-weight: 500;
@@ -1187,8 +1173,8 @@ input[type="submit"] {
 	text-decoration: none;
 	vertical-align: top;
 	box-sizing: border-box;
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 16px;
+	line-height: 1.5;
 	border-radius: 0px;
 	padding: 7px 14px 9px;
 	-webkit-appearance: none;
