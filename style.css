@@ -259,6 +259,37 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+
+@font-face{
+	font-family: 'IBM Plex Sans';
+	src: url('fonts/IBMPlexSans-Regular.eot');
+	src: url('fonts/IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/IBMPlexSans-Regular.woff') format('woff'),
+	     url('fonts/IBMPlexSans-Regular.ttf') format('truetype'),
+	     url('fonts/IBMPlexSans-Regular.svg#webfont') format('svg');
+			 font-style: normal;
+}
+
+@font-face{
+	font-family: 'IBM Plex Sans';
+	src: url('fonts/IBMPlexSans-Italic.eot');
+	src: url('fonts/IBMPlexSans-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/IBMPlexSans-Italic.woff') format('woff'),
+	     url('fonts/IBMPlexSans-Italic.ttf') format('truetype'),
+	     url('fonts/IBMPlexSans-Italic.svg#webfont') format('svg');
+			 font-style: italic;
+}
+
+@font-face{
+	font-family: 'IBM Plex Sans';
+	src: url('fonts/IBMPlexSans-Bold.eot');
+	src: url('fonts/IBMPlexSans-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/IBMPlexSans-Bold.woff') format('woff'),
+	     url('fonts/IBMPlexSans-Bold.ttf') format('truetype'),
+	     url('fonts/IBMPlexSans-Bold.svg#webfont') format('svg');
+			 font-weight: bold;
+}
+
 body,
 button,
 input,
@@ -266,7 +297,7 @@ select,
 optgroup,
 textarea {
 	color: black;
-	font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	font-family: 'IBM Plex Sans', -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
