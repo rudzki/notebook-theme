@@ -801,12 +801,14 @@ a:hover, a:active {
 
 .tag-cloud-link {
 	font-size: inherit !important;
+	line-height: 1.65;
+	padding: 1px 6px;
+	background-color: #f6f6f6;
 }
 
-.tag-cloud-link::before {
-	content: '#';
-	margin-right: 1px;
-	font-size: 85%;
+.tag-cloud-link:hover {
+	color: black;
+	background-color: #f2f2f2;
 }
 
 /*--------------------------------------------------------------
