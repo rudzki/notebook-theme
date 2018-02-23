@@ -818,6 +818,10 @@ a:hover, a:active {
     padding: 2px;
 }
 
+.jetpack_subscription_widget p {
+	margin-bottom: 1em;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -970,6 +974,7 @@ body:not(.single) .format-aside .comments-link {
 embed,
 iframe,
 object {
+	width: 100% !important;
 	max-width: 100%;
 }
 
