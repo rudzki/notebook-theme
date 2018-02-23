@@ -811,6 +811,13 @@ a:hover, a:active {
 	background-color: #f2f2f2;
 }
 
+.instagram-pics img {
+    width: 200px !important;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
